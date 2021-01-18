@@ -13,6 +13,7 @@ export default {
     svelte({
       emitCss: false,
       preprocess: sveltePreprocess({
+        postcss: true
         // postcss: {
         //   plugins: [ nested() ]
         // }
